@@ -1,5 +1,7 @@
 # Minecraft Server Manager
 
+> **Fork note:** This is a fork of the upstream [Minecraft Server Manager](https://github.com/anefzaoui/minecraft-server-manager) with **added rootless Podman support**. It runs on Fedora/Aurora under Podman + SELinux (the panel drives the user's Podman socket, and sibling server containers get the `:Z` bind-label they need). It also carries a verified **Geyser + Floodgate** Bedrock-hybrid setup. See [docs/podman.md](docs/podman.md) and the installation section below.
+
 <p align="center">
   <img src="docs/screenshots/01-dashboard.png" alt="Dashboard with all Minecraft servers at a glance" width="920">
 </p>
